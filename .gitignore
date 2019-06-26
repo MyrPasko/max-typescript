@@ -1,0 +1,21 @@
+# IDE-specific files
+.coda
+.vscode
+.coda
+.buildpath
+.project
+.settings
+.idea
+
+# NPM
+node_modules
+
+# Secrets
+.env
+
+# Build artifacts
+client/build
+server/lib
+
+# TypeDoc output
+docs
