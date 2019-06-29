@@ -1,10 +1,17 @@
 "use strict";
 {
-    var name_1 = 'Max';
+    var myName_1 = 'Max';
     var age = 29;
-    var data = [name_1, age];
+    var data = [myName_1, age];
     var additionalData = [100, 'Tommy'];
     console.log('[Data]', data);
     console.log('[All Data]', data.concat(additionalData));
 }
-//# sourceMappingURL=modules.js.map
+// function controlMe(isTrue: boolean, smtElse: string) {
+//     let result: number;
+//     if (isTrue) {
+//         result = 10;
+//     }
+//     return result;
+// }
+//# sourceMappingURL=compiler.js.map

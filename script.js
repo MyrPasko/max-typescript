@@ -53,9 +53,13 @@ var userData = {
 var complex = {
     data: [100, 3.99, 10],
     output: function (all) {
+        if (all) {
+            return this.data;
+        }
         return this.data;
     }
 };
+complex.output(true);
 // union types
 var realRealAge;
 realRealAge = 27;
