@@ -7,12 +7,12 @@
     console.log('[All Data]', [...data, ...additionalData]);
 }
 
-function controlMe(isTrue: boolean, smtElse: string) {
-    let result: number;
-    if (isTrue) {
-        result = 10;
-    }
-    return result;
-}
+// function controlMe(isTrue: boolean, smtElse: string) {
+//     let result: number;
+//     if (isTrue) {
+//         result = 10;
+//     }
+//     return result;
+// }
 
 
