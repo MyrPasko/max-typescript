@@ -83,9 +83,14 @@ let complex: Complex = {
     data: [100, 3.99, 10],
 
     output: function (all: boolean) {
+        if (all) {
+            return this.data;
+        }
         return this.data;
     }
 };
+
+complex.output(true);
 
 // union types
 let realRealAge: string | number;
