@@ -21,6 +21,7 @@ console.log('[Hobbies]', Array.isArray(hobbies));
 var address = ["Superstreet", 99]; // order is important
 // enums
 var Color;
+// enums
 (function (Color) {
     Color[Color["Gray"] = 0] = "Gray";
     Color[Color["Green"] = 10] = "Green";
