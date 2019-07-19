@@ -1,12 +1,10 @@
 "use strict";
-/// <reference path="namespaces.ts">
-var MyMath;
-/// <reference path="namespaces.ts">
-(function (MyMath) {
-    var PI = 3.14;
-    function calcCircumference(diameter) {
-        return diameter * PI;
-    }
-    MyMath.calcCircumference = calcCircumference;
-})(MyMath || (MyMath = {}));
+// /// <reference path="namespaces.ts">
+// namespace MyMath {
+//     const PI = 3.14;
+//
+//     export function calcCircumference(diameter: number) {
+//         return diameter * PI;
+//     }
+// }
 //# sourceMappingURL=circleMath.js.map
