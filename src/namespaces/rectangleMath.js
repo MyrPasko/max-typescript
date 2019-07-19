@@ -1,11 +1,8 @@
 "use strict";
-/// <reference path="namespaces.ts">
-var MyMath;
-/// <reference path="namespaces.ts">
-(function (MyMath) {
-    function calcRectangle(width, height) {
-        return width * height;
-    }
-    MyMath.calcRectangle = calcRectangle;
-})(MyMath || (MyMath = {}));
+// /// <reference path="namespaces.ts">
+// namespace MyMath {
+//     export function calcRectangle(width: number, height: number) {
+//         return width * height;
+//     }
+// }
 //# sourceMappingURL=rectangleMath.js.map
