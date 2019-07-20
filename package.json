@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server",
-    "watch": "tsc -watch"
+    "watch": "tsc -watch",
+    "build": "webpack -d --watch",
+    "build:prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,10 @@
     "systemjs": "^4.0.0"
   },
   "devDependencies": {
-    "@types/jquery": "^3.3.30"
+    "@types/jquery": "^3.3.30",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
   }
 }
