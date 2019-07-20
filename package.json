@@ -13,5 +13,8 @@
   "dependencies": {
     "lite-server": "^2.5.3",
     "systemjs": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.30"
   }
 }
