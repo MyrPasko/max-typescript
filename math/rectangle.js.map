@@ -1,1 +1,1 @@
-{"version":3,"file":"rectangle.js","sourceRoot":"","sources":["rectangle.ts"],"names":[],"mappings":";;;IAAA,SAAgB,aAAa,CAAC,MAAc,EAAE,MAAc;QACxD,OAAO,MAAM,GAAG,MAAM,CAAC;IAC3B,CAAC"}
+{"version":3,"file":"rectangle.js","sourceRoot":"","sources":["rectangle.ts"],"names":[],"mappings":";;AAAA,SAAgB,aAAa,CAAC,MAAc,EAAE,MAAc;IACxD,OAAO,MAAM,GAAG,MAAM,CAAC;AAC3B,CAAC;AAFD,sCAEC"}
